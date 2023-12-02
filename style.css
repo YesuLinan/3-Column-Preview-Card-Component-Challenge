@@ -1,0 +1,118 @@
+body {
+  align-items: center;
+  background-color: #f2f2f2;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 57.5rem;
+  height: 31.25rem;
+}
+
+.first-block {
+  background-color: #e28625;
+  color: #e28625;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding-right: 2.97rem;
+}
+
+.second-block {
+  background-color: #006971;
+  color: #006971;
+  padding-right: 2.97rem;
+}
+
+.third-block {
+  background-color: #004140;
+  color: #004140;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding-right: 2.97rem; 
+}
+
+.service-image-container {
+  padding-top: 3rem;
+  margin-left: 3rem;
+}
+
+.service-image {
+  padding-bottom: 2.19rem;
+}
+
+.service-type {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 1.56rem;
+  margin-left: 3rem;
+}
+
+.service-description {
+  color: #fff;
+  font-family: Lexend Deca;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem;
+  opacity: 0.75;
+  margin-bottom: 5.19rem;
+  margin-left: 3rem;
+}
+
+.learn-more-button {
+  cursor: pointer;
+  width: 9.125rem;
+  height: 3rem;
+  border-radius: 1.5625rem;
+  background-color: white;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Lexend Deca";
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem;   
+}
+
+.learn-more-button:hover {
+  background-color: inherit;
+  color: #fff;
+  border: 0.06rem solid #fff;
+  height: 2.9rem;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+    body{
+        align-items: baseline;
+        margin: 0;
+        height: 93.873rem;
+        padding: 5.5rem 1.5rem;
+    }
+    .container {
+        flex-direction: column;
+        width: 20.4375rem;
+        height: 82.875rem;
+    }
+    .first-block {
+     border-bottom-left-radius: 0rem;
+     border-top-right-radius: 0.5rem;
+    }
+    .third-block {
+        border-bottom-right-radius: 0.5rem;
+        border-top-right-radius: 0rem;
+       }
+}
